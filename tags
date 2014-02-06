@@ -1,0 +1,153 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Adapter	lib/listen/adapter.rb	/^  module Adapter$/;"	m	class:Listen
+Adapter	lib/listen/adapter/base.rb	/^  module Adapter$/;"	m	class:Listen
+Adapter	lib/listen/adapter/bsd.rb	/^  module Adapter$/;"	m	class:Listen
+Adapter	lib/listen/adapter/darwin.rb	/^  module Adapter$/;"	m	class:Listen
+Adapter	lib/listen/adapter/linux.rb	/^  module Adapter$/;"	m	class:Listen
+Adapter	lib/listen/adapter/polling.rb	/^  module Adapter$/;"	m	class:Listen
+Adapter	lib/listen/adapter/windows.rb	/^  module Adapter$/;"	m	class:Listen
+BSD	lib/listen/adapter/bsd.rb	/^    class BSD < Base$/;"	c	class:Listen.Adapter
+Base	lib/listen/adapter/base.rb	/^    class Base$/;"	c	class:Listen.Adapter
+Change	lib/listen/change.rb	/^  class Change$/;"	c	class:Listen
+Darwin	lib/listen/adapter/darwin.rb	/^    class Darwin < Base$/;"	c	class:Listen.Adapter
+Directory	lib/listen/directory.rb	/^  class Directory$/;"	c	class:Listen
+File	lib/listen/file.rb	/^  class File$/;"	c	class:Listen
+Linux	lib/listen/adapter/linux.rb	/^    class Linux < Base$/;"	c	class:Listen.Adapter
+Listen	lib/listen.rb	/^module Listen$/;"	m
+Listen	lib/listen/adapter.rb	/^module Listen$/;"	m
+Listen	lib/listen/adapter/base.rb	/^module Listen$/;"	m
+Listen	lib/listen/adapter/bsd.rb	/^module Listen$/;"	m
+Listen	lib/listen/adapter/darwin.rb	/^module Listen$/;"	m
+Listen	lib/listen/adapter/linux.rb	/^module Listen$/;"	m
+Listen	lib/listen/adapter/polling.rb	/^module Listen$/;"	m
+Listen	lib/listen/adapter/windows.rb	/^module Listen$/;"	m
+Listen	lib/listen/change.rb	/^module Listen$/;"	m
+Listen	lib/listen/directory.rb	/^module Listen$/;"	m
+Listen	lib/listen/file.rb	/^module Listen$/;"	m
+Listen	lib/listen/listener.rb	/^module Listen$/;"	m
+Listen	lib/listen/record.rb	/^module Listen$/;"	m
+Listen	lib/listen/silencer.rb	/^module Listen$/;"	m
+Listen	lib/listen/version.rb	/^module Listen$/;"	m
+Listener	lib/listen/listener.rb	/^  class Listener$/;"	c	class:Listen
+Polling	lib/listen/adapter/polling.rb	/^    class Polling < Base$/;"	c	class:Listen.Adapter
+Record	lib/listen/record.rb	/^  class Record$/;"	c	class:Listen
+Silencer	lib/listen/silencer.rb	/^  class Silencer$/;"	c	class:Listen
+Windows	lib/listen/adapter/windows.rb	/^    class Windows < Base$/;"	c	class:Listen.Adapter
+_all_entries	lib/listen/directory.rb	/^    def _all_entries$/;"	f	class:Listen.Directory
+_async_change	lib/listen/directory.rb	/^    def _async_change(entry_path, options)$/;"	f	class:Listen.Directory
+_change	lib/listen/adapter/bsd.rb	/^      def _change(event_flags)$/;"	f	class:Listen.Adapter.BSD
+_change	lib/listen/adapter/linux.rb	/^      def _change(event_flags)$/;"	f	class:Listen.Adapter.Linux
+_change	lib/listen/adapter/windows.rb	/^      def _change(type)$/;"	f	class:Listen.Adapter.Windows
+_change_pool	lib/listen/directory.rb	/^    def _change_pool$/;"	f	class:Listen.Directory
+_changes_path	lib/listen/adapter/darwin.rb	/^      def _changes_path(changes)$/;"	f	class:Listen.Adapter.Darwin
+_content_modified?	lib/listen/file.rb	/^    def _content_modified?$/;"	f	class:Listen.File
+_default_ignore_patterns	lib/listen/silencer.rb	/^    def _default_ignore_patterns$/;"	f	class:Listen.Silencer
+_default_ignored_directories_patterns	lib/listen/silencer.rb	/^    def _default_ignored_directories_patterns$/;"	f	class:Listen.Silencer
+_default_ignored_extensions_patterns	lib/listen/silencer.rb	/^    def _default_ignored_extensions_patterns$/;"	f	class:Listen.Silencer
+_dir_change	lib/listen/change.rb	/^    def _dir_change(path, options)$/;"	f	class:Listen.Change
+_dir_event?	lib/listen/adapter/linux.rb	/^      def _dir_event?(event)$/;"	f	class:Listen.Adapter.Linux
+_directories_path	lib/listen/adapter/base.rb	/^      def _directories_path$/;"	f	class:Listen.Adapter.Base
+_entries	lib/listen/directory.rb	/^    def _entries$/;"	f	class:Listen.Directory
+_entry_type	lib/listen/directory.rb	/^    def _entry_type(entry_path)$/;"	f	class:Listen.Directory
+_event_path	lib/listen/adapter/bsd.rb	/^      def _event_path(event)$/;"	f	class:Listen.Adapter.BSD
+_event_path	lib/listen/adapter/linux.rb	/^      def _event_path(event)$/;"	f	class:Listen.Adapter.Linux
+_exist?	lib/listen/file.rb	/^    def _exist?$/;"	f	class:Listen.File
+_existing_path?	lib/listen/file.rb	/^    def _existing_path?$/;"	f	class:Listen.File
+_file_change	lib/listen/change.rb	/^    def _file_change(path, options)$/;"	f	class:Listen.Change
+_init_actors	lib/listen/listener.rb	/^    def _init_actors$/;"	f	class:Listen.Listener
+_init_debug	lib/listen/listener.rb	/^    def _init_debug$/;"	f	class:Listen.Listener
+_init_ignore_patterns	lib/listen/silencer.rb	/^    def _init_ignore_patterns$/;"	f	class:Listen.Silencer
+_init_only_patterns	lib/listen/silencer.rb	/^    def _init_only_patterns$/;"	f	class:Listen.Silencer
+_init_options	lib/listen/listener.rb	/^    def _init_options(options = {})$/;"	f	class:Listen.Listener
+_init_paths	lib/listen/record.rb	/^    def _init_paths$/;"	f	class:Listen.Record
+_init_worker	lib/listen/adapter/bsd.rb	/^      def _init_worker$/;"	f	class:Listen.Adapter.BSD
+_init_worker	lib/listen/adapter/darwin.rb	/^      def _init_worker$/;"	f	class:Listen.Adapter.Darwin
+_init_worker	lib/listen/adapter/linux.rb	/^      def _init_worker$/;"	f	class:Listen.Adapter.Linux
+_init_worker	lib/listen/adapter/windows.rb	/^      def _init_worker$/;"	f	class:Listen.Adapter.Windows
+_latency	lib/listen/adapter/base.rb	/^      def _latency$/;"	f	class:Listen.Adapter.Base
+_latency	lib/listen/adapter/polling.rb	/^      def _latency$/;"	f	class:Listen.Adapter.Polling
+_lstat	lib/listen/file.rb	/^    def _lstat$/;"	f	class:Listen.File
+_md5	lib/listen/file.rb	/^    def _md5$/;"	f	class:Listen.File
+_mode	lib/listen/file.rb	/^    def _mode$/;"	f	class:Listen.File
+_mode_modified?	lib/listen/file.rb	/^    def _mode_modified?$/;"	f	class:Listen.File
+_modified?	lib/listen/file.rb	/^    def _modified?$/;"	f	class:Listen.File
+_mtime	lib/listen/file.rb	/^    def _mtime$/;"	f	class:Listen.File
+_nap_time	lib/listen/adapter/polling.rb	/^      def _nap_time$/;"	f	class:Listen.Adapter.Polling
+_napped_loop	lib/listen/adapter/polling.rb	/^      def _napped_loop$/;"	f	class:Listen.Adapter.Polling
+_new_data	lib/listen/file.rb	/^    def _new_data$/;"	f	class:Listen.File
+_new_file_added?	lib/listen/adapter/bsd.rb	/^      def _new_file_added?(event)$/;"	f	class:Listen.Adapter.BSD
+_new_path?	lib/listen/file.rb	/^    def _new_path?$/;"	f	class:Listen.File
+_notify_change	lib/listen/adapter/base.rb	/^      def _notify_change(path, options)$/;"	f	class:Listen.Adapter.Base
+_notify_listener	lib/listen/change.rb	/^    def _notify_listener(change, path)$/;"	f	class:Listen.Change
+_path	lib/listen/adapter/windows.rb	/^      def _path(path)$/;"	f	class:Listen.Adapter.Windows
+_poll_directories	lib/listen/adapter/polling.rb	/^      def _poll_directories$/;"	f	class:Listen.Adapter.Polling
+_pop_changes	lib/listen/listener.rb	/^    def _pop_changes$/;"	f	class:Listen.Listener
+_record	lib/listen/directory.rb	/^    def _record$/;"	f	class:Listen.Directory
+_record	lib/listen/file.rb	/^    def _record$/;"	f	class:Listen.File
+_record_data	lib/listen/file.rb	/^    def _record_data$/;"	f	class:Listen.File
+_record_data?	lib/listen/file.rb	/^    def _record_data?$/;"	f	class:Listen.File
+_record_entries	lib/listen/directory.rb	/^    def _record_entries$/;"	f	class:Listen.Directory
+_recursive_scan?	lib/listen/directory.rb	/^    def _recursive_scan?(path)$/;"	f	class:Listen.Directory
+_relative_path	lib/listen/silencer.rb	/^    def _relative_path(path)$/;"	f	class:Listen.Silencer
+_removed_path?	lib/listen/file.rb	/^    def _removed_path?$/;"	f	class:Listen.File
+_set_record_data	lib/listen/file.rb	/^    def _set_record_data$/;"	f	class:Listen.File
+_signals_trap	lib/listen/listener.rb	/^    def _signals_trap$/;"	f	class:Listen.Listener
+_silencer	lib/listen/change.rb	/^    def _silencer$/;"	f	class:Listen.Change
+_skip_event?	lib/listen/adapter/linux.rb	/^      def _skip_event?(event)$/;"	f	class:Listen.Adapter.Linux
+_unset_record_data	lib/listen/file.rb	/^    def _unset_record_data$/;"	f	class:Listen.File
+_update_record	lib/listen/directory.rb	/^    def _update_record$/;"	f	class:Listen.Directory
+_usable_adapter_class	lib/listen/adapter.rb	/^    def self._usable_adapter_class$/;"	F	class:Listen.Adapter
+_wait_for_changes	lib/listen/listener.rb	/^    def _wait_for_changes$/;"	f	class:Listen.Listener
+_warn_polling_fallback	lib/listen/adapter.rb	/^    def self._warn_polling_fallback(options)$/;"	F	class:Listen.Adapter
+_watch_file	lib/listen/adapter/bsd.rb	/^      def _watch_file(path, queue)$/;"	f	class:Listen.Adapter.BSD
+_watch_for_new_file	lib/listen/adapter/bsd.rb	/^      def _watch_for_new_file(event)$/;"	f	class:Listen.Adapter.BSD
+_worker_callback	lib/listen/adapter/bsd.rb	/^      def _worker_callback$/;"	f	class:Listen.Adapter.BSD
+_worker_callback	lib/listen/adapter/linux.rb	/^      def _worker_callback$/;"	f	class:Listen.Adapter.Linux
+_worker_callback	lib/listen/adapter/windows.rb	/^      def _worker_callback$/;"	f	class:Listen.Adapter.Windows
+build	lib/listen/record.rb	/^    def build$/;"	f	class:Listen.Record
+change	lib/listen/change.rb	/^    def change(path, options)$/;"	f	class:Listen.Change
+change	lib/listen/file.rb	/^    def change$/;"	f	class:Listen.File
+dir_entries	lib/listen/record.rb	/^    def dir_entries(path)$/;"	f	class:Listen.Record
+file_data	lib/listen/record.rb	/^    def file_data(path)$/;"	f	class:Listen.Record
+ignore	lib/listen/listener.rb	/^    def ignore(regexps)$/;"	f	class:Listen.Listener
+ignore!	lib/listen/listener.rb	/^    def ignore!(regexps)$/;"	f	class:Listen.Listener
+initialize	lib/listen/adapter/base.rb	/^      def initialize(listener)$/;"	f	class:Listen.Adapter.Base
+initialize	lib/listen/adapter/darwin.rb	/^      def initialize(listener)$/;"	f	class:Listen.Adapter.Darwin
+initialize	lib/listen/adapter/linux.rb	/^      def initialize(listener)$/;"	f	class:Listen.Adapter.Linux
+initialize	lib/listen/change.rb	/^    def initialize(listener)$/;"	f	class:Listen.Change
+initialize	lib/listen/directory.rb	/^    def initialize(listener, path, options = {})$/;"	f	class:Listen.Directory
+initialize	lib/listen/file.rb	/^    def initialize(listener, path)$/;"	f	class:Listen.File
+initialize	lib/listen/listener.rb	/^    def initialize(*args, &block)$/;"	f	class:Listen.Listener
+initialize	lib/listen/record.rb	/^    def initialize(listener)$/;"	f	class:Listen.Record
+initialize	lib/listen/silencer.rb	/^    def initialize(listener)$/;"	f	class:Listen.Silencer
+listen?	lib/listen/listener.rb	/^    def listen?$/;"	f	class:Listen.Listener
+only	lib/listen/listener.rb	/^    def only(regexps)$/;"	f	class:Listen.Listener
+pause	lib/listen/listener.rb	/^    def pause$/;"	f	class:Listen.Listener
+paused?	lib/listen/listener.rb	/^    def paused?$/;"	f	class:Listen.Listener
+scan	lib/listen/directory.rb	/^    def scan$/;"	f	class:Listen.Directory
+select	lib/listen/adapter.rb	/^    def self.select(options = {})$/;"	F	class:Listen.Adapter
+set_path	lib/listen/record.rb	/^    def set_path(path, data)$/;"	f	class:Listen.Record
+silenced?	lib/listen/silencer.rb	/^    def silenced?(path, type = 'Unknown')$/;"	f	class:Listen.Silencer
+start	lib/listen/adapter/base.rb	/^      def start$/;"	f	class:Listen.Adapter.Base
+start	lib/listen/adapter/bsd.rb	/^      def start$/;"	f	class:Listen.Adapter.BSD
+start	lib/listen/adapter/darwin.rb	/^      def start$/;"	f	class:Listen.Adapter.Darwin
+start	lib/listen/adapter/linux.rb	/^      def start$/;"	f	class:Listen.Adapter.Linux
+start	lib/listen/adapter/polling.rb	/^      def start$/;"	f	class:Listen.Adapter.Polling
+start	lib/listen/adapter/windows.rb	/^      def start$/;"	f	class:Listen.Adapter.Windows
+start	lib/listen/listener.rb	/^    def start$/;"	f	class:Listen.Listener
+stop	lib/listen.rb	/^    def stop$/;"	f	class:Listen
+stop	lib/listen/listener.rb	/^    def stop$/;"	f	class:Listen.Listener
+to	lib/listen.rb	/^    def to(*args, &block)$/;"	f	class:Listen
+unpause	lib/listen/listener.rb	/^    def unpause$/;"	f	class:Listen.Listener
+unset_path	lib/listen/record.rb	/^    def unset_path(path)$/;"	f	class:Listen.Record
+usable	lib/listen/adapter/base.rb	/^      def self.usable?$/;"	F	class:Listen.Adapter.Base
+usable	lib/listen/adapter/bsd.rb	/^      def self.usable?$/;"	F	class:Listen.Adapter.BSD
+usable	lib/listen/adapter/darwin.rb	/^      def self.usable?$/;"	F	class:Listen.Adapter.Darwin
+usable	lib/listen/adapter/linux.rb	/^      def self.usable?$/;"	F	class:Listen.Adapter.Linux
+usable	lib/listen/adapter/polling.rb	/^      def self.usable?$/;"	F	class:Listen.Adapter.Polling
+usable	lib/listen/adapter/windows.rb	/^      def self.usable?$/;"	F	class:Listen.Adapter.Windows
